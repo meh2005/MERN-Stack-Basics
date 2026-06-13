@@ -14,6 +14,12 @@ shift + ! - to generate boilerplate code
 	- git commit -m "MSG"
 	- git remote add origin "repo link"
 	- git push -u origin main
+** updating existing repo with new changes and files:
+	- git pull origin main
+	-git status
+	-git add .
+	-git commit -m "MSG"
+	-git push origin main
 <a> has attribute rel="noopener noreferrer" - used to save the system from attacks
 
 - use newDB -> for creating and using new DB, and switching between db's
