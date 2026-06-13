@@ -1,0 +1,39 @@
+html 5 boilerplate code - sidthesloth (not installed)
+live server
+prettier - code formatter
+auto rename tag
+auto close tag
+html css support
+path intellisense - Christian kohler (not installed)
+javascript es6 snippets 
+
+shift + ! - to generate boilerplate code
+
+** pushing to new git repo:
+	- git init
+	- git commit -m "MSG"
+	- git remote add origin "repo link"
+	- git push -u origin main
+<a> has attribute rel="noopener noreferrer" - used to save the system from attacks
+
+- use newDB -> for creating and using new DB, and switching between db's
+- show dbs -> for getting names of all DB's
+- show collections -> to get list of all tables
+- db.createCollection("tname") -> to create new table of name tname
+- db.tname.insertOne({key:value, key:value...}) -> to insert one document in tname table/collection
+- db.tname.find() -> to get all documents in the collection (rows in the table)
+- db.tname.insertMany([{}, {}, ...]) -> to insert multiple documents in tname collection (inserting many rows in tname table)
+- db.tname.find({condition as key:value}) -> to find all documents matching the condition give
+- db.tname.updateOne({search condition key: value},{$set : {update key:value}}) -> to update the first collection matching the search condition with the set values
+- db.tname.deleteOne({condition key: value}) -> to delete the 1st doc matching the condition
+- db.tname.deleteMany({condition key:value}) -> to delete many documents
+- db.tname.updateMany({}, {$set, $inc etc: {}}) -> to update all documents
+- db.tname.countDocuments() -> returns number of documents present in collection
+- db.tname.find().sort({field: -1, 1}) -> sorts all documents in ascending(1) or descending order(-1) based on value corresponding to field key
+- $gt
+- $lt
+- $set
+- findOne()
+- project
+- aggregation pipeline sequence - $match > $sort > $skip > $limit > $ unwind > $lookup > $group > $project > $sort > $merge
+
