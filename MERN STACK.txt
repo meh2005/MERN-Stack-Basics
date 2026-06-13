@@ -1,10 +1,10 @@
-html 5 boilerplate code - sidthesloth (not installed)
+html 5 boilerplate code - sidthesloth 
 live server
 prettier - code formatter
 auto rename tag
 auto close tag
 html css support
-path intellisense - Christian kohler (not installed)
+path intellisense - Christian kohler 
 javascript es6 snippets 
 
 shift + ! - to generate boilerplate code
